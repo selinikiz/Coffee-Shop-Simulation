@@ -1,5 +1,5 @@
 program: Main
-	g++ Main.o Barista.o Cashier.o Customer.o Queue.o -o Assignment3
+	g++ Main.o Barista.o Cashier.o Customer.o Queue.o -o CoffeeShopSimulation
 Main: Barista Cashier Customer Queue
 	g++ -c Main.cpp -o Main.o
 Barista:
